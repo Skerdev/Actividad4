@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.borde{
+    border:1px solid gray;
+
+}
+.contenedor{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+}
+nav{
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.logo{
+    flex: 30%;
+}
+.menu{
+    flex: 50%;
+}
+.ingreso{
+    flex: 20%;
+}
+header{
+    height: 500px;
+
+}
+.presentacion{
+    height: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.mision{
+    flex: 33%;
+}
+.vision{
+    flex: 33%;
+}
+.objetivo{
+    flex: 33%;
+}
+.actividades{
+    height: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.actividad_principal{
+    flex: 50%;
+}
+.actividad_complementaria{
+    flex: 50%;
+}
+.mapa{
+    height: 200px;
+}
+.contacto{
+    height: 200px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.correo, .telefono, .direccion{
+    flex: 1;
+}
+section{
+    height: 100px;
+}
