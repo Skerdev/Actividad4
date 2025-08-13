@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    text-align: center;
 }
 .borde{
-    border:1px solid gray;
+    border:1px solid rgb(33, 117, 7);
 
 }
 .contenedor{
@@ -14,21 +15,28 @@
     margin:auto;
 }
 nav{
-    height: 70px;
+    height: 90px;
     display: flex;
     flex-flow: row nowrap;
+    background-color: forestgreen;
 }
 .logo{
     flex: 30%;
 }
 .menu{
     flex: 50%;
+    color: rgb(255, 255, 255);
 }
 .ingreso{
     flex: 20%;
+    color:rgb(255, 255, 255);
+}
+.mision, .vision, .objetivo{
+    background-color: lawngreen;
 }
 header{
     height: 500px;
+    text-align: center;
 
 }
 .presentacion{
@@ -38,12 +46,15 @@ header{
 }
 .mision{
     flex: 33%;
+    text-align: center;
 }
 .vision{
     flex: 33%;
+    text-align: center;
 }
 .objetivo{
     flex: 33%;
+    text-align: center;
 }
 .actividades{
     height: 400px;
@@ -56,8 +67,9 @@ header{
 .actividad_complementaria{
     flex: 50%;
 }
-.mapa{
+.mapas{
     height: 200px;
+    text-align: center;
 }
 .contacto{
     height: 200px;
@@ -68,5 +80,9 @@ header{
     flex: 1;
 }
 section{
+    height: 100px;
+}
+footer{
+    flex: 1;
     height: 100px;
 }
