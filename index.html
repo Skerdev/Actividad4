@@ -1,41 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eco-recicla Comunal</title>
-    <link rel="stylesheet" href="landing/assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eco-recicla Comunal</title>
+  <link rel="stylesheet" href="landing/assets/css/styles.css">
 </head>
 <body>
-    <div class="contenedor">
-        <nav>
-            <div class="borde logo"><img src="landing/assets/img/logo reciclaje.png"width="80%"height="100%"></div>
-            <div class="borde menu">menu</div>
-            <div class="borde ingreso">ingreso</div>
-        </nav>
-        <header class="borde"><h1>Eco-recicla Comunal</h1><br><br><img src="landing/assets/img/reciclando.png"width="900px"height="420px"></header>
-        <section class="borde presentacion">
-            <div class="borde mision"><h2>Nuestra Mision</h2><p><br>nuestra msision es <br>ayudar a contribuir <br>con el planeta</p></div>
-            <div class="borde vision"><h2>Nuestra vision</h2><p><br>Nuestra vision es que<br>para el año 2030<br>ser una organizacion <br>expandida a mas areas de colombia</p></div>
-            <div class="borde objetivo"><h2>Nuestro objetivo</h2><p>ayudar al medio ambiente y<br>mejorar la calidad de<br>vida de los habitantes</p></div>
-
-        </section>
-        <section class="borde actividades">
-            <div class="borde actividad_principal"><h2>Actividad principal</h2><br>La actividad principal de esta organizacion es la venta de recursos reciclaves incentivando a la comunidada aportar en el reciclaje acambio del valor correspondiente de el reciclaje</div>
-            <div class="borde actividad_complementaria"><h2>Actividades complementarias:</h2><br><br>dentro de las actividades complementarias esta el aporte a la comunidad en materia de desechos ,apotando a la limpieza y calidad de vida e la comunidad,tambien elaborado campañas para incentivar la inportancia del reciclaje y de una buena conducta con los desechos renovables y no renovables</div>
-        </section>
-        <section class="borde contacto">
-            <div class="borde correo">correo:<br><h3>ecoreciclacomunal@gmail.com</h3></div>
-            <div class="borde telefono">telefono:<br><h3>3123114120</h3></div>
-            <div class="borde direccion">direccion:<br><h3>calle 45h #20h-30</h3></div>
-        </section>
-        <section class="borde mapas">
-            <div class="borde mapa"><img src="landing/assets/img/mapa.jpg"alt="mapa"></div>
-        </section>
-        <footer class="borde"><h3>inportancia de esta pagina web</h3><br> para la organizacion esta pagina web ayuda principalmente para que se de a conocer u actividad y publicitar de mejor manera<br>su activiad y ayudar a que ma voluntarios y aliados se puedan unir a esta noble causa de ayudar al planeta.</footer>
-
-
+  <!-- CABECERA -->
+  <header class="site-header" id="top">
+    <div class="brand">
+      <img src="landing/assets/img/logo reciclaje.png" alt="Logo" class="logo-img">
+      <span>Eco-recicla Comunal</span>
     </div>
-    
+    <nav class="site-nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#mision-vision">Misión y Visión</a>
+      <a href="#actividades">Actividades</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#mapa">Mapa</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero card">
+    <h1>Eco-recicla Comunal</h1>
+    <p class="lead">Unidos para reciclar, cuidar el medio ambiente y mejorar la calidad de vida de la comunidad.</p>
+    <img src="landing/assets/img/reciclando.png" alt="Reciclaje" class="hero-img">
+  </section>
+
+  <!-- MISION, VISION Y OBJETIVO -->
+  <section id="mision-vision" class="card grid-3">
+    <article>
+      <h2>Misión</h2>
+      <p>Nuestra misión es ayudar a contribuir con el planeta.</p>
+    </article>
+    <article>
+      <h2>Visión</h2>
+      <p>Nuestra visión es que para el año 2030 ser una organización expandida a más áreas de Colombia.</p>
+    </article>
+    <article>
+      <h2>Objetivo</h2>
+      <p>Ayudar al medio ambiente y mejorar la calidad de vida de los habitantes.</p>
+    </article>
+  </section>
+
+  <!-- ACTIVIDADES -->
+  <section id="actividades" class="card grid-2">
+    <div>
+      <h2>Actividad Principal</h2>
+      <p>La actividad principal de esta organización es la venta de recursos reciclables incentivando a la comunidad a aportar en el reciclaje a cambio del valor correspondiente.</p>
+    </div>
+    <div>
+      <h2>Actividades Complementarias</h2>
+      <p>Entre las actividades complementarias está el aporte a la comunidad en materia de desechos, limpieza y calidad de vida. También realizamos campañas para incentivar la importancia del reciclaje y de una buena conducta con los desechos renovables y no renovables.</p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="card grid-3">
+    <div>
+      <h3>Correo</h3>
+      <p>ecoreciclacomunal@gmail.com</p>
+    </div>
+    <div>
+      <h3>Teléfono</h3>
+      <p>312 311 4120</p>
+    </div>
+    <div>
+      <h3>Dirección</h3>
+      <p>Calle 45h #20h-30</p>
+    </div>
+  </section>
+
+  <!-- MAPA -->
+  <section id="mapa" class="card">
+    <h2>Ubicación</h2>
+    <img src="landing/assets/img/mapa.jpg" alt="Mapa de ubicación" class="mapa-img">
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>Importancia de esta página web: ayuda a dar a conocer la actividad de la organización, publicitar mejor sus iniciativas y motivar a más voluntarios y aliados a unirse a esta noble causa de cuidar el planeta.</p>
+    <nav class="footer-nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#mision-vision">Misión</a>
+      <a href="#actividades">Actividades</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#top">↑ Arriba</a>
+    </nav>
+  </footer>
 </body>
 </html>
